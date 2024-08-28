@@ -24,6 +24,7 @@ struct TransactionList: View {
                         
                     }
                     header: {Text(month)}
+                        .listSectionSeparator(.hidden)
                 }
             }
             
