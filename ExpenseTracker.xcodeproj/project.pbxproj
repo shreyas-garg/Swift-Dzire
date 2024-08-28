@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BBE833A82C7E7F5F0017AD15 /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = BBE833A72C7E7F5F0017AD15 /* SwiftUIFontIcon */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BB31FED32C7D083600C31959 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE833A82C7E7F5F0017AD15 /* SwiftUIFontIcon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +105,7 @@
 			);
 			name = ExpenseTracker;
 			packageProductDependencies = (
+				BBE833A72C7E7F5F0017AD15 /* SwiftUIFontIcon */,
 			);
 			productName = ExpenseTracker;
 			productReference = BB31FEC22C7D083400C31959 /* ExpenseTracker.app */;
@@ -177,6 +183,9 @@
 			);
 			mainGroup = BB31FEB92C7D083400C31959;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BBE833A62C7E77A10017AD15 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BB31FEC32C7D083400C31959 /* Products */;
 			projectDirPath = "";
@@ -534,6 +543,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BBE833A62C7E77A10017AD15 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BBE833A72C7E7F5F0017AD15 /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBE833A62C7E77A10017AD15 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BB31FEBA2C7D083400C31959 /* Project object */;
 }
